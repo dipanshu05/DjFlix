@@ -1,0 +1,206 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <!-- Hero Section Begin -->
+    <section class="hero">
+        <div class="hero__slider owl-carousel">
+            <div class="hero__item set-bg" data-setbg="{%static 'img/hero/hero-1.jpg' %}">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <span>For website and video editing</span>
+                                <h2>Videographer’s Portfolio</h2>
+                                <a href="#" class="primary-btn">See more about us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__item set-bg" data-setbg="{%static 'img/hero/hero-1.jpg' %}">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <span>For website and video editing</span>
+                                <h2>Videographer’s Portfolio</h2>
+                                <a href="#" class="primary-btn">See more about us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__item set-bg" data-setbg="{%static 'img/hero/hero-1.jpg' %}">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <span>For website and video editing</span>
+                                <h2>Videographer’s Portfolio</h2>
+                                <a href="#" class="primary-btn">See more about us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+<!-- Portfolio Section Begin -->
+<section class="portfolio spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="portfolio__filter">
+                    <li class="active fil first" data-filter="*">All</li>
+                    <li class="fil" data-filter=".Action">Action</li>
+                    <li class="fil" data-filter=".Horror">Horror</li>
+                    <li class="fil" data-filter=".Comedy">Comedy</li>
+                    <li class="fil" data-filter=".Romance">Romance</li>
+                    <li class="fil" data-filter=".Sci-Fi">Sci-Fi</li>
+                    <li class="fil" data-filter=".Thriller">Thriller</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row portfolio__gallery" id="all_videos">
+            {% if videos %}
+                {% for video in videos %}
+                <!-- <input type="hidden" value="{{video.category}}" id="cat"> -->
+                <div class="col-lg-4 col-md-6 col-sm-6 mix {{video.category}}">
+                    <div class="portfolio__item" >
+                        <div class="portfolio__item__video set-bg" data-setbg="{%static 'img/portfolio/portfolio-1.jpg' %}">
+                            <a href="{% url 'hls_video_player' video.slug %}" class="play-btn video"><i
+                                    class="fa fa-play"></i></a>
+                        </div>
+                        <div class="portfolio__item__text">
+                            <h4>{{ video.name }}</h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class="col-lg-4 col-md-6 col-sm-6 mix {{video.category}} searchVideo" >
+                    <div class="portfolio__item" >
+                        <div class="portfolio__item__video set-bg" data-setbg="{%static 'img/portfolio/portfolio-1.jpg' %}">
+                            <a href="{% url 'hls_video_player' video.slug %}" class="play-btn video"><i
+                                    class="fa fa-play"></i></a>
+                        </div>
+                        <div class="portfolio__item__text">
+                            <h4>{{ video.name }}</h4>
+                        </div>
+                    </div>
+                </div> -->
+                {% endfor %}
+            {% else  %}
+                <h3 class="text-center mx-auto"> No Videos Found</h3>
+            {% endif %}
+        </div>
+        <p class="text-center mx-auto no-results" style="display: none;"> No Videos Found</p>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="pagination__option" id="pagination">
+                    <!-- {% if page_obj.has_previous %}
+                        <a href="?page=1" class="arrow__pagination left__arrow">&laquo; First</a>
+                        <a href="?page={{ page_obj.previous_page_number }}" class="arrow__pagination left__arrow "><span class="arrow_left"></span>Prev</a>
+                    {% endif %}
+
+                    <span class="number__pagination">
+                        {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+                    </span>
+
+                    {% if page_obj.has_next %}
+                        <a href="?page={{ page_obj.next_page_number }}" class="arrow__pagination right__arrow">Next<span class="arrow_right"></span></a>
+                        <a href="?page={{ page_obj.paginator.num_pages }}" class="arrow__pagination right__arrow">last &raquo;</a>
+                    {% endif %} -->
+                    <!-- <a href="#" class="arrow__pagination left__arrow disabled-btn"><span class="arrow_left"></span> Prev</a>
+                    <a href="#" class="number__pagination">1</a>
+                    <a href="#" class="number__pagination">2</a>
+                    <a href="#" class="arrow__pagination right__arrow">Next <span class="arrow_right"></span></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portfolio Section End -->
+
+
+<!-- Team Section Begin -->
+<section class="team spad set-bg" data-setbg="{% static 'img/team-bg.jpg' %}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title team__title">
+                    <span>Nice to meet</span>
+                    <h2>OUR Team</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                <div class="team__item set-bg" data-setbg="{% static 'img/team/team-1.jpg' %}">
+                    <div class="team__item__text">
+                        <h4>AMANDA STONE</h4>
+                        <p>Videographer</p>
+                        <div class="team__item__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                <div class="team__item team__item--second set-bg" data-setbg="{% static 'img/team/team-2.jpg' %}">
+                    <div class="team__item__text">
+                        <h4>AMANDA STONE</h4>
+                        <p>Videographer</p>
+                        <div class="team__item__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                <div class="team__item team__item--third set-bg" data-setbg="{% static 'img/team/team-3.jpg' %}">
+                    <div class="team__item__text">
+                        <h4>AMANDA STONE</h4>
+                        <p>Videographer</p>
+                        <div class="team__item__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                <div class="team__item team__item--four set-bg" data-setbg="{% static 'img/team/team-4.jpg' %}">
+                    <div class="team__item__text">
+                        <h4>AMANDA STONE</h4>
+                        <p>Videographer</p>
+                        <div class="team__item__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 p-0">
+                <div class="team__btn">
+                    <a href="#" class="primary-btn">Meet Our Team</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Team Section End -->
+
+{% endblock %}

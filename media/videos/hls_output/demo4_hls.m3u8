@@ -1,0 +1,123 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:11
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:7.140467,
+{{ dynamic_path }}/demo4_hls0.ts
+#EXTINF:6.973633,
+{{ dynamic_path }}/demo4_hls1.ts
+#EXTINF:1.568233,
+{{ dynamic_path }}/demo4_hls2.ts
+#EXTINF:6.940267,
+{{ dynamic_path }}/demo4_hls3.ts
+#EXTINF:9.743067,
+{{ dynamic_path }}/demo4_hls4.ts
+#EXTINF:3.403400,
+{{ dynamic_path }}/demo4_hls5.ts
+#EXTINF:8.341667,
+{{ dynamic_path }}/demo4_hls6.ts
+#EXTINF:5.405400,
+{{ dynamic_path }}/demo4_hls7.ts
+#EXTINF:1.101100,
+{{ dynamic_path }}/demo4_hls8.ts
+#EXTINF:2.102100,
+{{ dynamic_path }}/demo4_hls9.ts
+#EXTINF:5.372033,
+{{ dynamic_path }}/demo4_hls10.ts
+#EXTINF:8.241567,
+{{ dynamic_path }}/demo4_hls11.ts
+#EXTINF:8.341667,
+{{ dynamic_path }}/demo4_hls12.ts
+#EXTINF:4.938267,
+{{ dynamic_path }}/demo4_hls13.ts
+#EXTINF:1.368033,
+{{ dynamic_path }}/demo4_hls14.ts
+#EXTINF:8.341667,
+{{ dynamic_path }}/demo4_hls15.ts
+#EXTINF:3.670333,
+{{ dynamic_path }}/demo4_hls16.ts
+#EXTINF:3.269933,
+{{ dynamic_path }}/demo4_hls17.ts
+#EXTINF:5.138467,
+{{ dynamic_path }}/demo4_hls18.ts
+#EXTINF:3.103100,
+{{ dynamic_path }}/demo4_hls19.ts
+#EXTINF:3.069733,
+{{ dynamic_path }}/demo4_hls20.ts
+#EXTINF:3.303300,
+{{ dynamic_path }}/demo4_hls21.ts
+#EXTINF:8.274933,
+{{ dynamic_path }}/demo4_hls22.ts
+#EXTINF:3.670333,
+{{ dynamic_path }}/demo4_hls23.ts
+#EXTINF:3.670333,
+{{ dynamic_path }}/demo4_hls24.ts
+#EXTINF:6.539867,
+{{ dynamic_path }}/demo4_hls25.ts
+#EXTINF:7.607600,
+{{ dynamic_path }}/demo4_hls26.ts
+#EXTINF:2.836167,
+{{ dynamic_path }}/demo4_hls27.ts
+#EXTINF:2.902900,
+{{ dynamic_path }}/demo4_hls28.ts
+#EXTINF:7.440767,
+{{ dynamic_path }}/demo4_hls29.ts
+#EXTINF:3.336667,
+{{ dynamic_path }}/demo4_hls30.ts
+#EXTINF:4.571233,
+{{ dynamic_path }}/demo4_hls31.ts
+#EXTINF:3.903900,
+{{ dynamic_path }}/demo4_hls32.ts
+#EXTINF:7.007000,
+{{ dynamic_path }}/demo4_hls33.ts
+#EXTINF:6.806800,
+{{ dynamic_path }}/demo4_hls34.ts
+#EXTINF:2.168833,
+{{ dynamic_path }}/demo4_hls35.ts
+#EXTINF:3.803800,
+{{ dynamic_path }}/demo4_hls36.ts
+#EXTINF:8.541867,
+{{ dynamic_path }}/demo4_hls37.ts
+#EXTINF:5.772433,
+{{ dynamic_path }}/demo4_hls38.ts
+#EXTINF:5.605600,
+{{ dynamic_path }}/demo4_hls39.ts
+#EXTINF:1.601600,
+{{ dynamic_path }}/demo4_hls40.ts
+#EXTINF:3.937267,
+{{ dynamic_path }}/demo4_hls41.ts
+#EXTINF:11.244567,
+{{ dynamic_path }}/demo4_hls42.ts
+#EXTINF:5.271933,
+{{ dynamic_path }}/demo4_hls43.ts
+#EXTINF:7.774433,
+{{ dynamic_path }}/demo4_hls44.ts
+#EXTINF:1.901900,
+{{ dynamic_path }}/demo4_hls45.ts
+#EXTINF:1.034367,
+{{ dynamic_path }}/demo4_hls46.ts
+#EXTINF:4.004000,
+{{ dynamic_path }}/demo4_hls47.ts
+#EXTINF:3.970633,
+{{ dynamic_path }}/demo4_hls48.ts
+#EXTINF:4.704700,
+{{ dynamic_path }}/demo4_hls49.ts
+#EXTINF:4.671333,
+{{ dynamic_path }}/demo4_hls50.ts
+#EXTINF:5.638967,
+{{ dynamic_path }}/demo4_hls51.ts
+#EXTINF:9.709700,
+{{ dynamic_path }}/demo4_hls52.ts
+#EXTINF:4.204200,
+{{ dynamic_path }}/demo4_hls53.ts
+#EXTINF:8.341667,
+{{ dynamic_path }}/demo4_hls54.ts
+#EXTINF:8.341667,
+{{ dynamic_path }}/demo4_hls55.ts
+#EXTINF:8.341667,
+{{ dynamic_path }}/demo4_hls56.ts
+#EXTINF:8.341667,
+{{ dynamic_path }}/demo4_hls57.ts
+#EXTINF:6.373033,
+{{ dynamic_path }}/demo4_hls58.ts
+#EXT-X-ENDLIST

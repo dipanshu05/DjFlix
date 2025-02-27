@@ -1,0 +1,33 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:10.010000,
+{{ dynamic_path }}/demo_1_hls0.ts
+#EXTINF:3.044711,
+{{ dynamic_path }}/demo_1_hls1.ts
+#EXTINF:6.339667,
+{{ dynamic_path }}/demo_1_hls2.ts
+#EXTINF:3.294956,
+{{ dynamic_path }}/demo_1_hls3.ts
+#EXTINF:2.961289,
+{{ dynamic_path }}/demo_1_hls4.ts
+#EXTINF:4.796467,
+{{ dynamic_path }}/demo_1_hls5.ts
+#EXTINF:6.131122,
+{{ dynamic_path }}/demo_1_hls6.ts
+#EXTINF:4.587911,
+{{ dynamic_path }}/demo_1_hls7.ts
+#EXTINF:4.462800,
+{{ dynamic_path }}/demo_1_hls8.ts
+#EXTINF:5.547200,
+{{ dynamic_path }}/demo_1_hls9.ts
+#EXTINF:4.379378,
+{{ dynamic_path }}/demo_1_hls10.ts
+#EXTINF:6.881878,
+{{ dynamic_path }}/demo_1_hls11.ts
+#EXTINF:7.716044,
+{{ dynamic_path }}/demo_1_hls12.ts
+#EXTINF:3.670578,
+{{ dynamic_path }}/demo_1_hls13.ts
+#EXT-X-ENDLIST

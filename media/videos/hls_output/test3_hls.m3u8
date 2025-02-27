@@ -1,0 +1,41 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:9.759756,
+{{ dynamic_path }}/test3_hls0.ts
+#EXTINF:1.793456,
+{{ dynamic_path }}/test3_hls1.ts
+#EXTINF:4.129122,
+{{ dynamic_path }}/test3_hls2.ts
+#EXTINF:4.838167,
+{{ dynamic_path }}/test3_hls3.ts
+#EXTINF:4.796456,
+{{ dynamic_path }}/test3_hls4.ts
+#EXTINF:5.505500,
+{{ dynamic_path }}/test3_hls5.ts
+#EXTINF:4.295967,
+{{ dynamic_path }}/test3_hls6.ts
+#EXTINF:5.005000,
+{{ dynamic_path }}/test3_hls7.ts
+#EXTINF:6.006000,
+{{ dynamic_path }}/test3_hls8.ts
+#EXTINF:3.962289,
+{{ dynamic_path }}/test3_hls9.ts
+#EXTINF:5.964289,
+{{ dynamic_path }}/test3_hls10.ts
+#EXTINF:4.462789,
+{{ dynamic_path }}/test3_hls11.ts
+#EXTINF:5.088422,
+{{ dynamic_path }}/test3_hls12.ts
+#EXTINF:5.005000,
+{{ dynamic_path }}/test3_hls13.ts
+#EXTINF:5.005000,
+{{ dynamic_path }}/test3_hls14.ts
+#EXTINF:5.171833,
+{{ dynamic_path }}/test3_hls15.ts
+#EXTINF:5.797456,
+{{ dynamic_path }}/test3_hls16.ts
+#EXTINF:3.003200,
+{{ dynamic_path }}/test3_hls17.ts
+#EXT-X-ENDLIST
